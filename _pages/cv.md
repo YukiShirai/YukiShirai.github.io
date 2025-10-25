@@ -12,3 +12,11 @@ show_content: false          # set true if you also want markdown below
 toc:
   sidebar: left
 ---
+<br>
+
+
+<object data="https://drive.google.com/file/d/1LwOimEIxba5xmgXPRTyHgcgOzFVLIpH8/view?usp=sharing" width="100%" 
+height="600" type="application/pdf"></object>
+
+
+
