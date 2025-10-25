@@ -184,6 +184,20 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
+{% if entry.award %}
+  <div class="award-line">
+    <span class="badge-award">
+      {% if entry.award_url %}
+        <a href="{{ entry.award_url }}" target="_blank" rel="noopener">
+          🏆 {{ entry.award }}
+        </a>
+      {% else %}
+        🏆 {{ entry.award }}
+      {% endif %}
+    </span>
+  </div>
+{% endif %}
+
 
     <!-- Links/Buttons -->
     <div class="links">
