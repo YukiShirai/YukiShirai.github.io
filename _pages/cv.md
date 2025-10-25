@@ -15,8 +15,7 @@ toc:
 <br>
 
 
-<object data="https://drive.google.com/file/d/1LwOimEIxba5xmgXPRTyHgcgOzFVLIpH8/view?usp=sharing" width="100%" 
-height="600" type="application/pdf"></object>
-
-
+<object data="https://drive.google.com/file/d/1LwOimEIxba5xmgXPRTyHgcgOzFVLIpH8/preview"
+        width="100%" height="800" type="application/pdf">
+</object>
 
