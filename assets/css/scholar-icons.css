@@ -384,3 +384,16 @@
 .si-zotero:before {
   content: "\e955";
 }
+
+/* Make profile icons larger */
+.profile .contact-icons a {
+  font-size: 1.5rem;   /* adjust as you like */
+  margin: 0 8px;
+}
+
+/* Keep bottom (footer) icons small */
+.social .contact-icons a {
+  font-size: 1rem;
+  margin: 0 6px;
+}
+
