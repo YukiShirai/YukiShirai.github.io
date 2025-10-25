@@ -9,13 +9,9 @@ description: Please click on the icon to download my CV if it does not appear in
 use_data: false              # or true if you want _data/cv.yml sections too
 embed_pdf: true              # show the inline viewer
 show_content: false          # set true if you also want markdown below
+cv_drive_id: 1LwOimEIxba5xmgXPRTyHgcgOzFVLIpH8
 toc:
   sidebar: left
 ---
-<br>
 
-
-<object data="https://drive.google.com/file/d/1LwOimEIxba5xmgXPRTyHgcgOzFVLIpH8/preview"
-        width="100%" height="800" type="application/pdf">
-</object>
 
