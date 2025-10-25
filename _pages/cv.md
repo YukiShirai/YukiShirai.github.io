@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: https://drive.google.com/file/d/1LwOimEIxba5xmgXPRTyHgcgOzFVLIpH8/view?usp=sharing # you can also use external links here
+cv_pdf: https://drive.google.com/file/d/1LwOimEIxba5xmgXPRTyHgcgOzFVLIpH8/preview # you can also use external links here
 description: Please click on the icon to download my CV if it does not appear in your browser.
 use_data: false              # or true if you want _data/cv.yml sections too
 embed_pdf: true              # show the inline viewer
