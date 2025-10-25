@@ -1,69 +1,16 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {{ page.title }}
-      {% if page.cv_pdf %}
-        {%- assign cv_src = page.cv_pdf | strip -%}
-        {%- assign first4 = cv_src | slice: 0, 4 | downcase -%}
-        {%- if first4 == 'http' -%}
-          {%- assign pdf_href = cv_src -%}
-        {%- elsif cv_src contains '/' -%}
-          {%- assign pdf_href = cv_src | relative_url -%}
-        {%- else -%}
-          {%- assign pdf_href = cv_src | prepend: 'assets/pdf/' | relative_url -%}
-        {%- endif -%}
+<!-- _layouts/cv.html -->
+      <div class="post">
+            <header class="post-header">
+            <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
+            <p class="post-description">{{ page.description }}</p>
+          </header>
 
-        <a href="{{ pdf_href }}" target="_blank" rel="noopener noreferrer" class="float-right">
-          <i class="fa-solid fa-file-pdf"></i><span class="sr-only">PDF</span>
-        </a>
-      {% endif %}
-    </h1>
-    {% if page.description %}
-      <p class="post-description">{{ page.description }}</p>
-    {% endif %}
-  </header>
 
-  <article>
-    {# --- DATA-DRIVEN CV (optional) --- #}
-    {% if page.use_data and site.data.cv %}
-      <div class="cv">
-        {% for entry in site.data.cv %}
-          <a class="anchor" id="{{ entry.title | slugify }}"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-            <div>
-              {% case entry.type %}
-                {% when 'list' %}{% include cv/list.liquid %}
-                {% when 'map' %}{% include cv/map.liquid %}
-                {% when 'nested_list' %}{% include cv/nested_list.liquid %}
-                {% when 'time_table' %}{% include cv/time_table.liquid %}
-                {% when 'list_groups' %}{% include cv/list_groups.liquid %}
-                {% else %}{{ entry.contents }}
-              {% endcase %}
-            </div>
+          <div class="clearfix">
+            {{ content }}
           </div>
-        {% endfor %}
-      </div>
-    {% endif %}
 
-    {# --- INLINE PDF VIEWER (this is what you’re missing) --- #}
-    {% if page.cv_pdf and page.embed_pdf != false %}
-      <div class="mt-4">
-        <object data="{{ pdf_href }}#view=fitH" type="application/pdf" width="100%" height="900">
-          <iframe src="{{ pdf_href }}" width="100%" height="900"></iframe>
-          <p>Can’t display the PDF here. <a href="{{ pdf_href }}">Download CV (PDF)</a>.</p>
-        </object>
-      </div>
-    {% endif %}
-
-    {# --- OPTIONAL: ALSO RENDER PAGE CONTENT --- #}
-    {% if page.show_content != false and content %}
-      <div class="clearfix mt-4">
-        {{ content }}
-      </div>
-    {% endif %}
-  </article>
 </div>
