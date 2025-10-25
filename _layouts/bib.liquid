@@ -197,6 +197,19 @@
     </span>
   </div>
 {% endif %}
+{% if entry.media_feature %}
+  <div class="media-feature-line">
+    <span class="badge-media">
+      {% if entry.media_url %}
+        <a href="{{ entry.media_url }}" target="_blank" rel="noopener">
+          🎥 {{ entry.media_feature }}
+        </a>
+      {% else %}
+        🎥 {{ entry.media_feature }}
+      {% endif %}
+    </span>
+  </div>
+{% endif %}
 
 
     <!-- Links/Buttons -->
