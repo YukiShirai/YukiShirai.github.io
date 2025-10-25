@@ -28,4 +28,4 @@ I am Yuki Shirai, Postdoctoral Research Fellow at [Mitsubishi Electric Research 
 
 Before joining MERL, I completed my Ph.D. at UCLA, working with [Dennis Hong](https://www.romela.org/) and I completed my B.E. at Tohoku University, working with [Kazuya Yoshida](https://astro.mech.tohoku.ac.jp/e/index.html). 
 
-Previously, during my PhD, I worked at [Boston Dynamics AI Institute](https://rai-inst.com/) and MERL as a research intern. 
+During my PhD, I worked at [Boston Dynamics AI Institute](https://rai-inst.com/) and MERL as a research intern. 
