@@ -6,6 +6,9 @@ nav: true
 nav_order: 5
 cv_pdf: https://drive.google.com/file/d/1LwOimEIxba5xmgXPRTyHgcgOzFVLIpH8/view?usp=sharing # you can also use external links here
 description: Please click on the icon to download my CV if it does not appear in your browser.
+use_data: false              # or true if you want _data/cv.yml sections too
+embed_pdf: true              # show the inline viewer
+show_content: false          # set true if you also want markdown below
 toc:
   sidebar: left
 ---
