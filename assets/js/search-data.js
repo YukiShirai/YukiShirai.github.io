@@ -369,8 +369,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-i-serve-as-a-co-organizer-of-2025-iros-workshop-on-climbing-robotics-also-our-paper-was-accepted-for-iros2025",
+          title: 'I serve as a co-organizer of 2025 IROS Workshop on Climbing Robotics! Also,...',
           description: "",
           section: "News",},{id: "news-our-paper-was-accepted-for-neurips-2025-workshop-embodied-world-models-for-decision-making",
           title: 'Our paper was accepted for NeurIPS 2025 Workshop Embodied World Models for Decision...',
