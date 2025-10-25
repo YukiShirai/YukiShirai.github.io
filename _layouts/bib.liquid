@@ -49,15 +49,6 @@
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
-{% if entry.award %}
-  <span class="badge-award">
-    {% if entry.award_url %}
-      <a href="{{ entry.award_url }}" target="_blank" rel="noopener">{{ entry.award }}</a>
-    {% else %}
-      {{ entry.award }}
-    {% endif %}
-  </span>
-{% endif %}
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -196,6 +187,11 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      {% if entry.award %}
+        <a class="award btn btn-sm z-depth-0" role="button">
+          {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
+        </a>
+      {% endif %}
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
