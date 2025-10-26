@@ -369,7 +369,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-was-appointed-as-an-associate-editor-for-ieee-robotics-and-automation-letters-ra-l",
+            },},{id: "news-i-was-appointed-as-an-associate-editor-for-the-2025-icra",
+          title: 'I was appointed as an Associate Editor for the 2025 ICRA!',
+          description: "",
+          section: "News",},{id: "news-i-was-appointed-as-an-associate-editor-for-ieee-robotics-and-automation-letters-ra-l",
           title: 'I was appointed as an Associate Editor for IEEE Robotics and Automation Letters...',
           description: "",
           section: "News",},{id: "news-my-work-during-my-internship-at-bdai-and-my-work-at-merl-were-accepted-for-2025icra",
