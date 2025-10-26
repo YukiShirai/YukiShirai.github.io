@@ -369,7 +369,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-was-appointed-as-an-associate-editor-for-the-2025-icra",
+            },},{id: "news-i-was-invited-as-a-speaker-to-the-theory-and-algorithms-for-chance-constrained-optimization-session-in-the-continuous-stochastic-programming-stream-at-the-ismp-2024",
+          title: 'I was invited as a speaker to the “Theory and Algorithms for Chance...',
+          description: "",
+          section: "News",},{id: "news-i-was-appointed-as-an-associate-editor-for-the-2025-icra",
           title: 'I was appointed as an Associate Editor for the 2025 ICRA!',
           description: "",
           section: "News",},{id: "news-my-work-during-my-internship-at-bdai-and-my-work-at-merl-were-accepted-for-2025icra",
