@@ -369,7 +369,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-serve-as-a-co-organizer-of-2025-iros-workshop-on-climbing-robotics-also-our-paper-was-accepted-for-iros2025",
+            },},{id: "news-i-was-appointed-as-an-associate-editor-for-ieee-robotics-and-automation-letters-ra-l",
+          title: 'I was appointed as an Associate Editor for IEEE Robotics and Automation Letters...',
+          description: "",
+          section: "News",},{id: "news-i-serve-as-a-co-organizer-of-2025-iros-workshop-on-climbing-robotics-also-our-paper-was-accepted-for-iros2025",
           title: 'I serve as a co-organizer of 2025 IROS Workshop on Climbing Robotics! Also,...',
           description: "",
           section: "News",},{id: "news-our-paper-was-accepted-for-neurips-2025-workshop-embodied-world-models-for-decision-making",
