@@ -394,7 +394,7 @@ ninja.data = [{
           title: 'Our paper was accepted for NeurIPS 2025 Workshop Embodied World Models for Decision...',
           description: "",
           section: "News",},{id: "news-our-paper-was-accepted-for-ieee-robotics-and-automation-letters-ra-l",
-          title: 'Our paper) was accepted for IEEE Robotics and Automation Letters (RA-L)!',
+          title: 'Our paper was accepted for IEEE Robotics and Automation Letters (RA-L)!',
           description: "",
           section: "News",},{id: "news-i-joined-samsung-research-america-as-a-senior-researcher-robotics-research",
           title: 'I joined Samsung Research America as a Senior Researcher, Robotics Research!',
