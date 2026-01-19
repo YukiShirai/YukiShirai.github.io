@@ -24,8 +24,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Yuki Shirai, Postdoctoral Research Fellow at [Mitsubishi Electric Research Laboratories](https://www.merl.com/) (MERL). I have been working on dexterous manipulation and locomotion from bimanual whole-body manipulation to tool manipulation, using deep reinforcement learning, imitation learning, and trajectory optimization, using vision and touch sensing toward multimodal learning.
+I am Yuki Shirai, a Senior Researcher (Robotics Research) at [Samsung Research America](https://sra.samsung.com/) (SRA). 
+I have been working on robotics and embodied AI for manipulation & humanoid robots. 
 
-Before joining MERL, I completed my Ph.D. at UCLA, working with [Dennis Hong](https://www.romela.org/) and I completed my B.E. at Tohoku University, working with [Kazuya Yoshida](https://astro.mech.tohoku.ac.jp/e/index.html). 
+Before joining SRA, I was a Postdoctoral Research Fellow at [Mitsubishi Electric Research Laboratories](https://www.merl.com/) (MERL). I worked on dexterous manipulation and locomotion from bimanual whole-body manipulation to tool manipulation, using deep reinforcement learning, imitation learning, and trajectory optimization, using vision and touch sensing toward multimodal learning.
+
+
+I completed my Ph.D. at UCLA, working with [Dennis Hong](https://www.romela.org/) and completed my B.E. at Tohoku University, working with [Kazuya Yoshida](https://astro.mech.tohoku.ac.jp/e/index.html). 
 
 During my PhD, I worked at [Boston Dynamics AI Institute](https://rai-inst.com/) and MERL as a research intern. 
