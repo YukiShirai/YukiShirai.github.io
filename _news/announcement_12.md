@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Our paper](https://ieeexplore.ieee.org/document/11358666)) was accepted for IEEE Robotics and Automation Letters (RA-L)! 
+[Our paper](https://ieeexplore.ieee.org/document/11358666) was accepted for IEEE Robotics and Automation Letters (RA-L)! 
