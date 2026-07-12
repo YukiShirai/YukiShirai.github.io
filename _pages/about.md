@@ -25,7 +25,7 @@ latest_posts:
 ---
 
 I am Yuki Shirai, a Senior Researcher (Robotics Research) at [Samsung Research America](https://sra.samsung.com/) (SRA). 
-I have been working on robotics and embodied AI for manipulation & humanoid robots. 
+I have been working on robot learning and embodied AI for dexterous manipulation & humanoid robots. 
 
 Before joining SRA, I was a Postdoctoral Research Fellow at [Mitsubishi Electric Research Laboratories](https://www.merl.com/) (MERL). I worked on dexterous manipulation and locomotion from bimanual whole-body manipulation to tool manipulation, using deep reinforcement learning, imitation learning, and trajectory optimization, using vision and touch sensing toward multimodal learning.
 
