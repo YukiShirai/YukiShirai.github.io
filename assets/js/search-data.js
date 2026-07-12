@@ -369,10 +369,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-had-invited-talk-at-duke-university-robotics-seminar-for-dexterous-manipulation-from-optimization-to-learning",
-          title: 'I had invited talk at Duke University Robotics Seminar for “Dexterous Manipulation: From...',
-          description: "",
-          section: "News",},{id: "news-i-was-invited-as-a-speaker-to-the-theory-and-algorithms-for-chance-constrained-optimization-session-in-the-continuous-stochastic-programming-stream-at-the-ismp-2024",
+            },},{id: "news-i-was-invited-as-a-speaker-to-the-theory-and-algorithms-for-chance-constrained-optimization-session-in-the-continuous-stochastic-programming-stream-at-the-ismp-2024",
           title: 'I was invited as a speaker to the “Theory and Algorithms for Chance...',
           description: "",
           section: "News",},{id: "news-i-joined-merl-as-a-postdoctoral-research-fellow",
@@ -404,6 +401,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-paper-unic-learning-unified-multimodal-extrinsic-contact-estimation-was-accepted-for-icra2026",
           title: 'Our paper, UNIC: Learning Unified Multimodal Extrinsic Contact Estimation, was accepted for ICRA2026!...',
+          description: "",
+          section: "News",},{id: "news-i-had-invited-talk-at-duke-university-robotics-seminar-for-dexterous-manipulation-from-optimization-to-learning",
+          title: 'I had invited talk at Duke University Robotics Seminar for “Dexterous Manipulation: From...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
